@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Define color palette */
+:root {
+    --dark-brown: #4E3B31; /* Dark brown */
+    --medium-brown: #A0522D; /* Medium brown */
+    --light-brown: #D2B48C; /* Light brown */
+    --cream: #F5F5DC; /* Cream for backgrounds */
+}
+
+/* Apply body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cream);
+    color: var(--dark-brown);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1, h2, h3 {
+    color: var(--medium-brown);
+}
+
+/* Link styles */
+a {
+    color: var(--medium-brown);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--dark-brown);
+}
+
+/* Add padding to sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: var(--light-brown);
+}
